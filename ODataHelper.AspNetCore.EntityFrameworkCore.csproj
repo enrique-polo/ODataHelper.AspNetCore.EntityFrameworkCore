@@ -12,6 +12,8 @@
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Copyright>Copyright (c) 2021 All Rights Reserved</Copyright>
     <SignAssembly>false</SignAssembly>
+    <Version>1.0.1</Version>
+    <Description>ODataHelper simplifies adding OData functionality to your AspNetCore application by providing Controllers and Repository Adapters.</Description>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,14 +21,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ODataHelper.AspNetCore\ODataHelper.AspNetCore.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="..\LICENSE">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ODataHelper.AspNetCore\ODataHelper.AspNetCore.csproj" />
   </ItemGroup>
 
 </Project>
